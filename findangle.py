@@ -1,7 +1,8 @@
-import math
-
+#!/bin/python
 ## Find angle of MBC in degrees
 ## https://www.hackerrank.com/challenges/find-angle
+
+import math
 
 AB = float(input())
 BC = float(input())
