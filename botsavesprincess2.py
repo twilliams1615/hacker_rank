@@ -18,6 +18,7 @@ def nextMove(n,r,c,grid):
 n = input()
 r,c = [int(i) for i in raw_input().strip().split()]
 grid = []
+
 for i in xrange(0, n):
     grid.append(raw_input())
 print nextMove(n,r,c,grid)
